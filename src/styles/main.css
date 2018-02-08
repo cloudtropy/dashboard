@@ -1,0 +1,6 @@
+/*初始化样式*/
+@import './global.less';
+/*某些antd 组件需要的额外样式*/
+@import './antd.less';
+/*引入ant-design-pro 样式*/
+@import '~ant-design-pro/dist/ant-design-pro.css';

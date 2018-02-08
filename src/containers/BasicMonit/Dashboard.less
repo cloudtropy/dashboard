@@ -1,0 +1,52 @@
+@import "~antd/lib/style/themes/default.less";
+
+.standardList {
+  margin:-24px;
+  background: #F0F2F5;
+}
+
+.headerInfo {
+  position: relative;
+  text-align: center;
+  & > span {
+    color: @text-color-secondary;
+    display: inline-block;
+    font-size: @font-size-base;
+    line-height: 22px;
+    margin-bottom: 4px;
+  }
+  & > p {
+    color: @heading-color;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    & > span {
+      font-size: 14px;
+      color: @heading-color;
+    }
+  }
+  & > em {
+    background-color: @border-color-split;
+    position: absolute;
+    height: 56px;
+    width: 1px;
+    top: 0;
+    right: 0;
+  }
+}
+
+.online_color{
+  color: #52C41A !important;
+}
+
+.offline_color {
+  color: #F5222D !important;
+}
+
+.listCard {
+  margin-top: 24px;
+}
+
+.filterBar{
+  margin-bottom: 12px;
+}
