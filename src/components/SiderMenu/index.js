@@ -19,31 +19,6 @@ export default class SiderMenu extends React.Component {
   /**
    * get SubMenu or Item
    */
-  /*
-  getNavMenuItems(menusData) {
-    if (menusData) {
-      return menusData.map(item => {
-        if (item.children) {
-          return (
-            <SubMenu key={item.path} title={<span><Icon type={item.icon}></Icon><span>{item.name}</span></span>}>
-              {
-                item.children.map((child,index)=>{
-                  return <Menu.Item key={index}><Link to={{pathname:`${item.path}/${child.path.split("/")[1]}`}} replace><span>{child.name}</span></Link></Menu.Item>
-                })
-              }
-            </SubMenu>
-          );
-        }
-        return (
-          <Menu.Item key={item.path}>
-            <Link to={item.path} target={item.target}><Icon type={item.icon} /><span>{item.name}</span></Link>
-          </Menu.Item>
-        );
-      });
-    }
-  }
-  */
-
   getNavMenuItems(menusData) {
     if (!menusData) {
       return [];
