@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch, Redirect, withRouter, } from "r
 import SiderMenu from "../components/SiderMenu";
 import GlobalHeader from "../components/GlobalHeader";
 import GlobalFooter from "../components/GlobalFooter";
-import TextOne from "../components/Test";
 import NotFound from "../components/Exception/404";
 import { getRouterData } from "../common/route.js";
 import { getCookie } from "../utils/utils";
