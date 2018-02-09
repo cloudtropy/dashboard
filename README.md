@@ -31,6 +31,10 @@
 
 ![](./doc/login.png)
 
+> 监控页面
+
+<img src="./doc/hostMonitor.png" style="width: 760px;height: 400px" alt="">
+
 ## 目录结构
 
 ```
