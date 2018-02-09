@@ -1,6 +1,11 @@
 ![](./doc/favicon.ico)
 
 # dashboard
+<<<<<<< HEAD
+=======
+
+## 介绍
+>>>>>>> 423bdc70b0e39c08fcc10d0ec8cad0b8b4f337d9
 
 ## 介绍
 
